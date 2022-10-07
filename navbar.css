@@ -1,0 +1,87 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100px;
+    background-color: rgb(255, 167, 2);
+    height: 80px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;  
+}
+.nav-right {
+    width: 300px;
+    flex-shrink: 0;
+    flex-shrink: 0; 
+}
+.nav-center{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border: 1px solid gray;
+    border: none; 
+    height: 50px;
+    max-width: 450px;
+    
+    width: 0;
+}
+.nav-left {
+    position: relative;
+}
+.list-width {
+    max-width: 400px;
+    background-color: pink;
+}
+.list {
+    display: flex;
+    list-style: none;
+    
+}
+li:active{
+    opacity: 0.6;
+}
+a {
+    color:white;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 10px;
+    font-weight: solid;
+    font-size: 24px;
+}
+  
+.logo {
+    height: px;
+    width: 100px;
+}
+.searchbar {
+    height: 45px;
+    width: 405px;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: solid;
+}
+.glassIcon {
+    height: 48px;
+    background-color: rgb(241, 241, 241);
+    border: 1px solid gray;
+}
+.glassIcon:hover {
+    opacity: 0.8;
+    
+}
+.glassIcon:active {
+    opacity: 0.6;
+}
+h1 {
+    font-family: Roboto, Arial;
+    font-size: 35px;
+    color: white;
+    font-style: italic;
+    font-weight: solid;
+}
+h1:active {
+    opacity: 0.4;
+}
